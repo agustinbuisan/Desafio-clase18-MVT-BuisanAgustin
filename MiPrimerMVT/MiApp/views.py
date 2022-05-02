@@ -4,7 +4,7 @@ from .models import Familiar
 # Create your views here.
 
 def familiar(self):
-    familiar=Familiar(nombre="Agustin", apellido="Buisan", edad=25, mail="agustin.buisan@gmail.com", rol_familiar="Hijo")
+    familiar=Familiar(nombre="Fernando", apellido="Buisan", edad=62, mail="fernandoxxx@gmail.com", rol_familiar="Padre")
     familiar.save()
     show_familiar = f"Mi nombre es: {familiar.nombre} y soy {familiar.rol_familiar}"
 
